@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+    <!--Tab heading-->
+    <head>
+        <title>
+        Tegan Cohen
+        </title>  
+        <link href="./style.css" type="text/css" rel="stylesheet">  
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <meta name="viewport" content="width=device-width, user-scalable=no">
+    </head>
+    <!--Homepage body-->
+    <body>
+        <header> 
+            <!--Navigation links-->
+       <nav class="topnav" id="portfolioTopnav">
+       <a href="#about">about</a>
+       <a href="#news">news and publications</a>
+        <a href="#experiencesection">qualifications</a>
+        <a href="#contact">contact</a>
+        <a href="javascript:void(0);" class="icon" onclick="openMenu()"><i class="fa fa-bars"></i></a>
+        </nav> 
+        <!--Homepage heading--> 
+        <h1>
+           Tegan Cohen
+        </h1>
+        </header> 
+        <main>
+        <!--Image - linked wrapped around image-->
+       <figure>
+        <a href="https://www.linkedin.com/in/tegan-c-23389854/" target="_blank">
+        <img src="conference.jpg" alt="Photograph of conference" width=260 height=240></a>
+         </figure>
+         <!--About section-->
+       <div id="aboutsection">
+        <h2 id="about" class="heading uppercase">
+           About
+       </h2>
+       <p>
+           I am a PhD Candidate and Sessional Academic at the Queensland University of Technology (QUT) School of Law. Prior to joining QUT, I practised law for nine years with top-tier firms in Sydney and London, specialising in complex technology and telecommunications projects, privacy and intellectual property.
+       </p>
+        <!--News section-->
+        <h2 id="news"> 
+        News and Publications
+       </h2>
+       <h3>
+           Journals
+       </h3>
+        <ul class="list">
+           <li>Cohen, T., 'The Political Exemption: A Justifiable Invasion of Privacy in the Political Sphere?' (2021) <em>University of New South Wales Law Journal</em> 44(2) (forthcoming)</li><br> 
+           <li>Burdon, M. and Cohen, T., 'Modulation Harms and The Google Home' (2021) <em>Surveillance & Society</em> (forthcoming)
+       </ul>
+        <h3>
+           Conferences
+       </h3>
+       <ul class="list">
+        <li>Privacy Law Scholars Conference 2021
+    </ul>
+    </div>
+    <div id=experiencesection>   
+    <!--Qualifications section-->
+    <h2>
+        Qualifications
+    </h2>
+  <!--Table to be removed--> 
+       <table>
+        <tr>
+            <th></th>
+            <th scope="row">Australian National University</th>
+            <td>Bachelor Arts / Law (First Class Hons.) 2009
+        </tr>
+    </table>
+     <!--Contact section-->
+    </div>
+    <div id=contactsection>
+    <h2 id=contact class="contactform">
+        Contact
+    </h2>
+    <a href="https://www.linkedin.com/in/tegan-c-23389854/" target="_blank">LinkedIn</a>
+    <br><br>
+    <a href="https://orcid.org/0000-0003-3508-5211" target="_blank">ORCID</a><br><br>
+    <a href="https://scholar.google.com.au/citations?view_op=list_works&hl=en&user=uylWMbsAAAAJ" target="_blank">Google Scholar</a><br>
+    <br>
+   <!--Comments section-->
+    <form>
+        <label for="name">*Name</label><br>
+        <input type="text" name="name" value="anon" required>
+        <br><br>
+        <label for="email">*Email</label><br>
+        <input type="text" name="email" id="email" required pattern=“[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$”>
+        <br><br>
+        <label for="mobile">*Mobile</label><br>
+        <input type="number" name="mobile" id="mobile" required pattern=“[0-9]”>
+        <br><br>
+        <label for="message">*Leave your message below</label><br>
+        <textarea id="message" name="message" rows="5" cols "30" required></textarea>
+        <br><br>
+        <input type="submit">
+   </form>
+    </div>
+    <h1>Take the Portfolio Quiz</h1>
+    <h3>What Have You Learnt About Tegan></h3>
+    <div id="quiz"></div>
+    <button id="submit">Submit Quiz</button>
+    <div id="results"></div>
+    </main>
+    <script src="nav.js"></script>
+    </body>
+</html>
+
